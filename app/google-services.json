@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509499064398",
+    "firebase_url": "https://polygphone.firebaseio.com",
+    "project_id": "polygphone",
+    "storage_bucket": "polygphone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509499064398:android:7e4847d3efcfd4e7",
+        "android_client_info": {
+          "package_name": "com.example.polygphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509499064398-rq6uq5del51gtormmedd3tdd3nmk5pp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polygphone",
+            "certificate_hash": "e2e28cfaba50cfbaf5584c70b881d010360afcc3"
+          }
+        },
+        {
+          "client_id": "509499064398-ifutese3jjue477i6o06ppt1d9viv8ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pup5P0dgXTsbPPClKCUHS8opXOse6zQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509499064398-pi0ntebqjvquertodg0g1r2vuk2uid36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
