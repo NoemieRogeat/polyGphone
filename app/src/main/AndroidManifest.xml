@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Compare"></activity>
+        <activity android:name=".Final"></activity>
+        <activity android:name=".Compare" />
         <activity android:name=".Choice" />
         <activity android:name=".RecordingAnkle" />
         <activity android:name=".RecordingKnee" />

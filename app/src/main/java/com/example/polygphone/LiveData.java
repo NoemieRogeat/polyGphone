@@ -51,6 +51,7 @@ public class LiveData extends AppCompatActivity {
     public TextView g_AnkleY;
     public TextView g_AnkleZ;
     DatabaseReference ref;
+
     public Button FinishButton;
 
     class Coord{
@@ -84,20 +85,34 @@ public class LiveData extends AppCompatActivity {
         ref = database.getReference("Activity");
         func();
 
+//        FinishButton = (Button) findViewById(R.id.Finishbutton);
+//        FinishButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                openChoice();
+//            }
+//        });
+
         FinishButton = (Button) findViewById(R.id.Finishbutton);
         FinishButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openChoice();
+                openFinal();
             }
-        });
+       });
+
 
     }
 
-    public void openChoice() {
-        Intent choose = new Intent(this, Choice.class);
+    public void openFinal() {
+        Intent choose = new Intent(this, Final.class);
         startActivity(choose);
     }
+
+//    public void openChoice() {
+//        Intent choose = new Intent(this, Choice.class);
+//        startActivity(choose);
+//    }
 
     public void func() {
 
@@ -171,4 +186,3 @@ public class LiveData extends AppCompatActivity {
 
 
 }
-
